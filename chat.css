@@ -1,0 +1,57 @@
+`css
+/ نافذة المحادثة /
+.chat-window {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+/ الرسائل /
+.message {
+  padding: 0.8em;
+  margin: 0.5em 0;
+  border-radius: 6px;
+  max-width: 80%;
+  line-height: 1.6;
+}
+
+.message.user {
+  background-color: #e0f7fa;
+  text-align: right;
+}
+
+.message.ai {
+  background-color: #f1f8e9;
+  text-align: left;
+}
+
+/ مدخل الرسالة /
+.chat-input {
+  display: flex;
+  gap: 0.5em;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 0.7em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.chat-input button {
+  padding: 0.7em 1.2em;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #357ab8;
+}
+`
